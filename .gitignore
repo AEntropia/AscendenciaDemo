@@ -1,0 +1,26 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+Build
+
+.vscode
+.vs
+.idea
+.cache
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Third-party asset packs (kept locally, excluded from Git)
+Content/Assets/Paragon*/
+Content/Assets/AnimalVarietyPack/
+Content/Assets/Atris_swords/
+Content/Assets/Fab/
+Content/UnrealBucket/
+UB_FreePack.png

@@ -1,0 +1,28 @@
+CompileFlags:
+  Add:
+    - /std:c++20
+    - /Zc:__cplusplus
+    - /permissive-
+    - /GR-
+    - /utf-8
+    - /EHsc
+    - /D_MSVC_TRADITIONAL=0
+    - /DSAL_NO_ATTRIBUTE_DECLARATIONS=1
+    - /D_DISABLE_EXTENDED_ALIGNED_STORAGE
+    - /DPLATFORM_EXCEPTIONS_DISABLED=0
+    - /D_WINDLL
+    - -Wno-unused-but-set-variable
+    - -Wno-microsoft-include
+    - -Wno-unknown-pragmas
+    - -Wno-deprecated-declarations
+    - -Wno-switch
+    - -Wno-invalid-token-paste
+
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument
+    - pp_file_not_found_typo_not_fatal
+  UnusedIncludes: None
+
+Index:
+  Background: Build
